@@ -29,6 +29,8 @@ h2{
   font-size: 32px;
   line-height: 1.5;
   color: #6ba43c;
+  color: #609435;
+  color: #598a30;
 }
 h3 {
   line-height: 1.5;
@@ -52,6 +54,7 @@ header{
 }
 nav li{
   display:inline;
+  font-size: 20px;
   padding-right:20px;
   padding-left: 20px;
   padding-top: 60px;
@@ -84,6 +87,8 @@ nav{
 
 .current a{
   color: #6ba43c;
+  color: #609435;
+  color: #598a30;
   font-weight: 900;
   text-decoration: underline;
   
@@ -123,8 +128,8 @@ a.skip:focus{
 /*footer*/
 footer{
   background-color: white;
-  color: grey;
-  padding-top: 40px;
+  color: #353832;
+  padding-top: 30px;
   text-align: center;
   height: 80px;
 }
@@ -194,6 +199,14 @@ main {
 }
 #highlight{
   color: #6ba43c;
+  color: #609435;
+  color: #598a30;
+  
+
+}
+#highlight-bigger{
+  font-size: 25px;
+  color: #598a30;
 }
 
 
@@ -313,7 +326,7 @@ background-color: rgba(255, 255, 255, .8);
   
 }
 figcaption{
-  color: grey;
+  color: #353832;
   opacity: 0.8;
   grid-column: 2 / span 1;
   margin-top: 10px;
@@ -344,17 +357,23 @@ figcaption{
 .back {
   grid-column: 1;
   font-size: 20px;
+  font-weight: bold;
   text-decoration: none;
   color: #6ba43c;
+  color: #609435;
+  color: #598a30;
 }
 
 
 .next {
   grid-column: 3;
+  font-weight: bold;
   text-align: right;
   font-size: 20px;
   text-decoration: none;
   color: #6ba43c;
+  color: #609435;
+  color: #598a30;
 }
 
 .gallery{
@@ -378,7 +397,9 @@ form{
 }
 
 input:focus{
-  border: 2px solid #6ba43c;
+  border: 2px solid #598a30;
+  
+  
 
 }
 
@@ -421,9 +442,13 @@ input[type=checkbox]{
 }
 
 input[type=submit] {
-  background-color: #6ba43c;
+  background-color: #598a30;
   border-radius: 5px;
+  font-size: 22px;
+  font-weight: bold;
   color: white;
+
+  
   padding: 14px 20px;
   margin: 8px 0;
   border: none;
