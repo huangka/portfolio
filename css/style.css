@@ -42,7 +42,7 @@ h3 {
 
 /*navigation bar */
 header{
-  height: 50px;
+  height: 70px;
   width:100%;
   filter: drop-shadow(0 6px 7px rgb(199, 197, 197));
   position: sticky; 
