@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z7BL10X7T8"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-Z7BL10X7T8');
+    </script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/html5reset.css">
@@ -14,27 +23,27 @@
     <header> 
       
       <nav>
-        <div class="logo"><a href="index.html">Katie Huang</a></div> 
+        
         <ul class="nav_links">
-          <li class="current"><a href="index.html">Work</a></li>
-          <li><a href="about.html">About</a></li> 
-          <li><a href="contact.html">Contact</a></li> 
+          <div class="logo"><a href="index.html">Katie Huang</a></div> 
+          <li class="current" id="work"><a href="index.html">Work</a></li>
+          <li id="about"><a href="about.html">About</a></li> 
+          <li id="contact"><a href="contact.html">Contact</a></li> 
         </ul>
       </nav>
     </header>
     
     <main class="about" id="skip" tabindex="0">
-      
-      <div class="intro">
-      <h1>Voting Registration Explainers</h1>
+      <div class="intro" id="project-intro">
      </div>
+     <h1 id="text-overlay-intro">Voting Registration Explainers</h1>
 
-     <figure class="project-image-half">
-      <img src="images/umma.png" alt="UMMA voting explainer" width="100%"> 
+     <figure class="project-image-left">
+      <img src="images/poster.png" alt="UMMA voting explainer" width="100%"> 
       <figcaption>This poster advertises the University of Michigan of Modern Art as a satallite office for voting needs for students voting in Ann Arbor. It was hung in the Undergraduate Library</figcaption>
      </figure>
-     <figure class="project-image-half">
-      <img src="images/reg-explainer.png" alt="how to register to vote explainer" width="100%"> 
+     <figure class="project-image-right" class="right-main">
+      <img src="images/flyer.png" alt="how to register to vote explainer" width="95%"> 
       <figcaption>This flyer outlines the steps needed to register to vote, while providing QR codes to important links</figcaption>
      </figure>
      
@@ -103,8 +112,8 @@
 
     
 
-      <div class="project-text-half">
-        <h2>Sketches and first drafts: The flyer</h2>
+      <div class="project-text-left">
+        <h2>First sketches: The flyer</h2>
         <p> Taking the principle of having everything a student would need to register to vote immediately 
           available gave me the idea of using QR codes to lead students to important links like the online 
           registration form or finding their local clerk. This is the easiest way, as students don't have to 
@@ -114,32 +123,28 @@
           
       </div>
 
-      <figure class="project-image-half">
-        <img src="images/flyer-sketch.jpg" alt="First round of sketches for the flyer" width="100%">
+      <figure class="project-image-right" id="first-image-right">
+        <img src="images/flyer-sketch.jpg" alt="First round of sketches for the flyer" width="90%">
         <figcaption> The first round of sketches for the flyer</figcaption>
       </figure>
 
-      <figure class="project-image-half">
-        <img src="images/flyer-first-draft.png" alt="First draft of the flyer" width="100%">
-        <figcaption> The first draft of the flyer</figcaption>
-      </figure>
       
-      <div class="project-text-half">
-        <h2>Sketches and first drafts: The poster</h2>
+      <div class="project-text-left">
+  
+        <h2>First sketches: The poster</h2>
         <p> I knew that QR codes would be less intuitive on a tabloid or larger sheet of paper, 
           so that helped me decide to use this mode to advertise the UMMA satalite office. 
           I played around with the UMMA statue, as it is recognizable (which is especially helpful for 
           freshman who don't know where the UMMA is) but also very visually interesting to work with.</p>
       </div>
 
-      <figure class="project-image-half">
-        <img src="images/poster-sketch.jpeg" alt="First round of sketches for the poster" width="100%">
+      <figure class="project-image-right" id="second-image-right">
+        <img src="images/poster-sketch.jpeg" alt="First round of sketches for the poster" width="90%">
         <figcaption> The first round of sketches for the poster</figcaption>
       </figure>
-      <figure class="project-image-half">
-        <img src="images/poster-first-draft.png" alt="First poster of the flyer" width="100%">
-        <figcaption> The first poster of the flyer</figcaption>
-      </figure>
+
+      
+    
 
       <div class="project-text">
         <h2>Feedback for first drafts</h2>
@@ -163,20 +168,35 @@
 
       </div>
 
+      <figure class="project-image-left">
+        <img src="images/flyer-first-draft.png" alt="First draft of the flyer" width="90%">
+        <figcaption> The first draft of the flyer</figcaption>
+      </figure>
+      
+      <figure class="project-image-right">
+        <img src="images/poster-first-draft.png" alt="First flyer of the poster" width="90%">
+        <figcaption> The first draft of the poster</figcaption>
+      </figure>
+
       <div class="project-text">
         <h2>Back to the drawing board</h2>
         <p>Based on the feedback from draft 1, I went back to the drawing board and sketched out multiple 
           thumbnails of both the poster and flyer to see how I could make the visual message as clear as 
           possible as well as visually interesting. I played around with size, shape, whitespace, orientation, 
-          alignment, etc.  I also double checked that all pieces of information were accurate.</p>
+          alignment, etc.  I also double checked that all pieces of information were accurate. 
+        </p> <br>
+        <p>When it came to the poster specifically, I played around with the size and orientation of the UMMA statue, seeing the ways
+          in which I could make the flow of the page more visually dynamic, as well as how I could use the visual to segment the information
+          on the page. Due to visual interest provided by the dimensions of the statue, this was a lot of fun to do!
+        </p>
            </div>
-      <figure class="project-image-half">
-        <img src="images/flyer-sketch-2.jpeg" alt="Second round of sketches for the flyer" width="100%">
+      <figure class="project-image-left">
+        <img src="images/flyer-sketch-2.jpeg" alt="Second round of sketches for the flyer" width="90%">
         <figcaption> The second round of sketches for the flyer</figcaption>
       </figure>
 
-      <figure class="project-image-half">
-        <img src="images/poster-sketch-2.jpeg" alt="Second round of sketches for the poster" width="100%">
+      <figure class="project-image-right">
+        <img src="images/poster-sketch-2.jpeg" alt="Second round of sketches for the poster" width="90%">
         <figcaption> The second round of sketches for the poster</figcaption>
       </figure>
 
@@ -217,12 +237,11 @@
             <h3>5. The power of whitespace: it's not just an afterthought!</h3>
       </div>
       
-    <div class="page-nav">
-      <a class="back" href="index.html"> <img class="next-arrow" src="images/back.png" alt="back button" width="10%"> Classmate </a>
-      <!---<a class="gallery" href="index.html"> Back to Work</a>--->
-      <a class="next" href="molarvate"> Molarvate <img class="next-arrow" src="images/next.png" alt="back button" width="10%"> </a>
+    <!---<div class="page-nav">
+      <a class="back" href="index.html"> Molarvate </a>
+      <a class="next" href="drawings.html"> Drawings</a>
   
-    </div>
+    </div> -->
      
   </main>
   <footer>

@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+     <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z7BL10X7T8"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-Z7BL10X7T8');
+  </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="imgs/email.png"/>
@@ -15,25 +24,26 @@
     <header> 
       
       <nav>
-        <div class="logo"><a href="index.html">Katie Huang</a></div> 
+        
         <ul class="nav_links">
-          <li><a href="index.html">Work</a></li>
-          <li><a href="about.html">About</a></li> 
-          <li class="current"><a href="contact.html">Contact</a></li> 
+          <div class="logo"><a href="index.html">Katie Huang</a></div> 
+          <li id="work"><a href="index.html">Work</a></li>
+          <li id="about"><a href="about.html">About</a></li> 
+          <li class="current" id="contact"><a href="contact.html">Contact</a></li> 
         </ul>
       </nav>
     </header>
     
-    <main class="about" id="skip" tabindex="0">
+    <main class="about">
       
-      <div class="intro">
+      <div class="intro" id="contact-page-intro">
       <h1>Let's work together!</h1>
      </div>
 
 
 
 
-
+  <div class="form-container" id="skip" tabindex="0">
     <form action="https://formspree.io/f/xayljnor" method="POST">
     <fieldset>
         <!--<legend>Sample Form</legend>-->
@@ -55,6 +65,7 @@
         <input type="submit" value = "Contact Me">
     </fieldset>
     </form>
+  </div>
     </main>
     <footer>
       <a href="KatieHuang-resume.pdf"> My Resume </a>
