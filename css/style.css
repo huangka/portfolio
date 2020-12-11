@@ -220,7 +220,7 @@ main {
   
 
 }
-#highlight-bigger{
+.highlight-bigger{
   font-size: 25px;
   color: #598a30;
 }
@@ -393,10 +393,10 @@ background-color: rgba(255, 255, 255, .8);
   height: 300px;                
 
   /*Set background-image to header.jpg */
-  background-image: url("/images/poster.png");
+  background-image: url("/images/flyer.png");
   /*filter: brightness(30%);*/
  
-  opacity: 0.2;
+  opacity: 0.15;
   grid-column: 1 / -1;  
   grid-row: 1 / auto;   
 }
